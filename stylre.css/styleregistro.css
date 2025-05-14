@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(91deg, blue,rgb(38, 120, 179),rgb(150, 1, 249));
+    text-align: center;
+}
+
+#titulo{
+    color: rgb(237, 242, 250);
+    border-radius: 5rem;
+    font-size: 5rem;
+    background: linear-gradient(30deg, rgb(8, 210, 229),blue,rgb(200, 7, 194));
+    margin-top: none;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15rem ;
+    box-shadow: 0 0.4rem 1.5rem black;
+    padding-bottom: 0.2% ;
+}
+
+#titulo{
+    opacity: 0;
+    transform: translateX(50px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 5rem;
+    background: linear-gradient(30deg, rgb(8, 210, 229),blue,rgb(200, 7, 194));
+    border-radius: 5rem;
+    padding-right: 2%;
+    padding-left: 2%;
+    box-shadow: 0 0.4rem 1.5rem black;
+}
+
+body a:hover{
+    color: blueviolet;
+}
+
+@media screen and (max-width:600px) {
+
+    #titulo{
+    color: rgb(237, 242, 250);
+    border-radius: 3.5rem;
+    font-size: 3rem;
+    background: linear-gradient(30deg, rgb(8, 210, 229),blue,rgb(200, 7, 194));
+    margin-top: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 12rem ;
+    box-shadow: 0 0.4rem 1.5rem black;
+    padding-bottom: 0.5% ;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 3rem;
+    background: linear-gradient(30deg, rgb(8, 210, 229),blue,rgb(200, 7, 194));
+    border-radius: 4rem;
+    padding-right: 3%;
+    padding-left: 3%;
+    box-shadow: 0 0.4rem 1.5rem black;
+}
+
+}

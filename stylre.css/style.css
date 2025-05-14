@@ -1,0 +1,357 @@
+html{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+body{
+    margin: 0;
+    background: linear-gradient(90deg, rgb(150, 1, 249),blue,rgb(38, 120, 179));
+}
+
+header{
+background: linear-gradient(50deg, rgb(80, 42, 163),rgb(5, 32, 189),rgb(9, 101, 207));
+border-radius: 5rem;
+margin-left:25%;
+margin-right:25%;
+box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
+margin-top: 0.5%;
+position: relative;
+}
+
+.titulo {
+    font-family: "Rubik Iso", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    
+    
+    
+} 
+
+.im:hover {
+ transform: scale(1.1);
+}
+
+.Accede:hover {
+ transform: scale(1.1);
+}
+
+header{
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 5;
+        transform: translateY(0);
+    }
+}
+
+.h2{
+    opacity: 0;
+    transform: translateX(50px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Comingsoon{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer{
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.game{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+ 
+.im{
+    position: absolute;
+    top: 7%;
+    left: 2%;
+}
+
+.game{
+    border-radius: 4rem;
+    position: absolute;
+    left: 2rem;
+    top: -0.1%;
+    margin-top: 0.5%;
+}
+
+.Accede{
+    font-family: "Wendy One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(229, 229, 230);
+    text-decoration: none;
+    font-size: 20px;
+     border-radius: 5px;
+     margin-right: 10%;
+     float: right;
+     top: 10px;
+     position: absolute;
+     top: 30%;
+     left: 88%;
+}
+
+
+.Comingsoon{
+   font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(120deg, rgb(186, 11, 202), rgb(8, 52, 172),rgb(0, 110, 255));
+    border-radius: 2rem;
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 22%;
+    font-size: 4.8rem;
+    color: aliceblue;
+    box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
+}
+
+.h2{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(90deg,rgb(153, 0, 255),rgb(4, 58, 236));
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 2rem;
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+    box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
+}
+
+header h2{
+    margin: 0;
+}
+
+.article1{
+    width: 600px;
+    margin: 0 auto;
+}
+.article1{
+    background: linear-gradient(90deg, rgb(39, 8, 60),rgb(9, 9, 77));
+    margin: 1;
+    border-radius: 5px;
+    padding: 0.25rem 0;
+    color: aliceblue;
+}
+.article2{
+    background: linear-gradient(90deg, rgb(38, 120, 179),blue,rgb(150,1,249));
+    margin: 0 0 0 0;
+    border-radius: 5px;
+    padding: 0.25rem 0;
+    color: aliceblue;
+}
+.fortnite{
+    background: linear-gradient(90deg, rgb(95, 21, 145),rgb(96, 96, 100),rgb(31, 50, 179));
+    margin: 0 0 0 0;
+    border-radius: 5px;
+    padding: 0.25rem 0;
+    color: aliceblue;
+}
+.h3fornite{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 0 0 0;
+
+}
+.fredy{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.lista{
+    text-align: center;
+    font-size: 1rem;
+}
+.gta6{
+    background: linear-gradient(90deg, rgb(223, 11, 230),rgba(17, 132, 156, 0.547),rgba(218, 193, 4, 0.699));
+    margin: 0 0 0 0;
+    border-radius: 5px;
+    padding: 0.25rem 0;
+   color: aliceblue;
+}
+.h3gta6{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 0 0 0;
+}
+.auronplay{ 
+    background: linear-gradient(90deg, rgb(130, 145, 33),rgb(16, 16, 101),rgb(118, 51, 195));
+    margin: 0 0 0 0;
+    border-radius: 5px;
+    padding: 0.25rem 0;
+    color: aliceblue;
+}
+.h3auronplay{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 0 0 0;
+}
+
+footer{
+    background-color: black;
+    padding: 4.1rem;
+    color: rgb(139, 142, 144);
+    margin-top: 4.8%;   
+}
+.links{
+    float: right;
+}
+
+footer p{
+    margin: 0%;
+}
+footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(89, 0, 255);
+}   
+
+@media screen and (max-width:600px) {
+        
+        footer p{
+    margin: 2%;
+}
+
+    .game{
+    border-radius: 4rem;
+    position: absolute;
+    left: 0.7rem;
+    top: -0.1%;
+    margin-top: 3%;
+    width: 30px;
+    height: 30px;
+}
+
+
+    header{
+background: linear-gradient(50deg, rgb(80, 42, 163),rgb(5, 32, 189),rgb(9, 101, 207));
+border-radius: 5rem;
+margin-left:16%;
+margin-right:16%;
+box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
+margin-top: 3%;
+position: relative;
+}
+
+    .h2{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(90deg,rgb(153, 0, 255),rgb(4, 58, 236));
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    border-radius: 2rem;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+    box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
+}
+
+.Comingsoon{
+   font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(120deg, rgb(186, 11, 202), rgb(8, 52, 172),rgb(0, 110, 255));
+    border-radius: 3rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 20%;
+    font-size: 1.5rem;
+    color: aliceblue;
+    box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
+    
+}
+
+footer{
+    background-color: black;
+    padding: 5.6rem;
+    color: rgb(139, 142, 144);
+    margin-top: 40%;   
+}
+
+.titulo {
+    font-family: "Rubik Iso", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    
+    
+    
+} 
+
+.Accede{
+    font-family: "Wendy One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(229, 229, 230);
+    text-decoration: none;
+    font-size: 11px;
+     border-radius: 5px;
+     margin-right: 10%;
+     float: right;
+     top: 5px;
+     position: absolute;
+     top: 33%;
+     left: 82%;
+}
+
+.im{
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    width: 30px;
+    height: 30px;
+}
+    
+}

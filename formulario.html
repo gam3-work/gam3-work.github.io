@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>formulario</title>
+     <link rel="stylesheet" href="stylre.css/styleformulario.css">
+  
+</head>
+<body>
+    <h2 id="titulo">Formulario de registro</h2>
+     <img src="img/game.jpg" width="50px" height="50px" class="game">
+    <form action="registro.html.html" method="POST" id="formulario">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" required class="nombre"><br><br>
+        
+        <label for="apellidos" class="apellidos">Apellidos:</label><br>
+        <input type="text" required><br><br>
+
+        <label for="Contraseña">Contraseña:</label><br>
+        <input type="password" required ><br><br>
+
+        <label for="correo electronico">Correo electronico:</label><br>
+        <input type="email"  required><br><br>
+        
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel"  placeholder="Ejemplo: 615909427" ><br><br>
+        
+        <label for="genero">Género:</label><br>
+        <select >
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+        </select><br><br>
+        
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label><br>
+        <input type="date"  required><br><br>
+
+        <label for="vives en europa">VIVES EN EUROPA</label>
+        <input type="checkbox"><br>
+
+        <h3>Cual de ellos de gusta màs</h3>
+
+        <label  for="juegos">Shooter</label>
+        <input type="radio"   name="deportes"><br><br>
+
+        <label for="juegos">Acción</label>
+        <input type="radio"    name="deportes"><br><br>
+
+        <label for="juegos">Otro</label>
+        <input type="radio"   name="deportes"><br><br>
+        
+        <label for="comentario">Cual:</label><br>
+        <textarea  rows="3" cols="30" ></textarea><br><br>
+        
+        <input type="submit" value="Enviar" class="enviar">
+        <input type="reset" value="reset" class="reset">
+    </form>
+</body>
+</html>
