@@ -340,22 +340,22 @@ position: relative;
     font-style: normal;
     color: rgb(229, 229, 230);
     text-decoration: none;
-    font-size: 11px;
+    font-size: 10px;
      border-radius: 5px;
      margin-right: 10%;
      float: right;
      top: 5px;
      position: absolute;
      top: 33%;
-     left: 82%;
+     left: 80%;
 }
 
 .im{
     position: absolute;
     top: 0%;
     left: 5%;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
 }
 
  .h1{
@@ -388,6 +388,7 @@ position: relative;
     box-shadow: 0 .1rem 0.7rem  rgb(5, 7, 8);
     position: absolute;
     bottom: -40%;
+
     }
 
  .hi{
