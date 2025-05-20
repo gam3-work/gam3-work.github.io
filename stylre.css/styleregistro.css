@@ -1,13 +1,16 @@
 body{
-    background: linear-gradient(91deg, blue,rgb(38, 120, 179),rgb(150, 1, 249));
+     background: linear-gradient(90deg, rgb(16, 64, 195),rgb(13, 20, 97));
     text-align: center;
+      font-family: "Bungee Inline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #titulo{
-    color: rgb(237, 242, 250);
+    color: rgb(16, 97, 226);
     border-radius: 5rem;
     font-size: 5rem;
-    background: linear-gradient(30deg, rgb(8, 210, 229),blue,rgb(200, 7, 194));
+     background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
     margin-top: none;
     margin-left: 15%;
     margin-right: 15%;
@@ -29,12 +32,25 @@ body{
     }
 }
 
+.enlace{
+    opacity: 0;
+    transform: translateX(50px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 a{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(16, 97, 226);
     font-size: 5rem;
-    background: linear-gradient(30deg, rgb(8, 210, 229),blue,rgb(200, 7, 194));
+     background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
     border-radius: 5rem;
     padding-right: 2%;
     padding-left: 2%;
@@ -42,16 +58,16 @@ a{
 }
 
 body a:hover{
-    color: blueviolet;
+    color: rgb(15, 55, 165);
 }
 
 @media screen and (max-width:600px) {
 
-    #titulo{
-    color: rgb(237, 242, 250);
-    border-radius: 3.5rem;
+#titulo{
+    color: rgb(16, 97, 226);
+    border-radius: 3rem;
     font-size: 3rem;
-    background: linear-gradient(30deg, rgb(8, 210, 229),blue,rgb(200, 7, 194));
+     background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
     margin-top: none;
     margin-left: 2%;
     margin-right: 2%;
@@ -60,11 +76,13 @@ body a:hover{
     padding-bottom: 0.5% ;
 }
 
+
+
 a{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(16, 97, 226);
     font-size: 3rem;
-    background: linear-gradient(30deg, rgb(8, 210, 229),blue,rgb(200, 7, 194));
+     background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
     border-radius: 4rem;
     padding-right: 3%;
     padding-left: 3%;

@@ -1,16 +1,17 @@
 body{
-    background: linear-gradient(90deg, rgb(145, 0, 242),rgb(5, 5, 146),rgb(179, 31, 31));
+    background: linear-gradient(180deg, rgb(16, 64, 195),rgb(13, 20, 97));
 }
 
 #formulario{
-    background: linear-gradient(70deg, rgb(80, 42, 163),rgb(40, 8, 218),rgb(192, 32, 4));
+    background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
     text-align: center;
     color: aliceblue;
     border-radius: 5rem;
     margin-left:30%;
     margin-right:30%;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 14px;
+    margin-bottom: 5.2%;
     box-shadow: 0 .1rem 0.7rem  rgb(5, 7, 8);
     
 }
@@ -73,7 +74,7 @@ textarea{
 }
 
 #titulo{
-    background: linear-gradient(50deg, rgb(80, 42, 163),rgb(5, 32, 189),rgb(207, 9, 9));
+   background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));  
     text-align: center;
     border-radius: 5rem;
     font-size: 3rem;
@@ -88,6 +89,7 @@ textarea{
     color: aliceblue;
     border-radius: 10px;
      box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
+     border: none;
      
 }
 
@@ -100,6 +102,12 @@ box-shadow: 0 .1rem 1rem  rgb(255, 255, 255);
     color: aliceblue;
     border-radius: 10px;
      box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
+     border: none;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
 }
 
 .reset:hover{
@@ -109,7 +117,7 @@ box-shadow: 0 .1rem 1rem  rgb(255, 255, 255);
 @media screen and (max-width:600px) {
 
     #formulario{
-    background: linear-gradient(70deg, rgb(80, 42, 163),rgb(40, 8, 218),rgb(192, 32, 4));
+    background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
     text-align: center;
     color: aliceblue;
     border-radius: 5rem;
@@ -122,7 +130,7 @@ box-shadow: 0 .1rem 1rem  rgb(255, 255, 255);
 }
 
 #titulo{
-    background: linear-gradient(50deg, rgb(80, 42, 163),rgb(5, 32, 189),rgb(207, 9, 9));
+   background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));  
     text-align: center;
     border-radius: 5rem;
     font-size: 2rem;
