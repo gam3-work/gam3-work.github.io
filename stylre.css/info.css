@@ -297,7 +297,9 @@ font-family: "Bungee Spice", sans-serif;
 
     @media screen and (max-width:600px) {
         
-
+body{
+    background: linear-gradient(90deg, rgb(16, 64, 195),rgb(13, 20, 97))
+}
     .game{
     border-radius: 4rem;
     position: absolute;
@@ -316,7 +318,7 @@ margin-left:16%;
 margin-right:16%;
 box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
 margin-top: 3%;
-margin-bottom: 14.4%;
+margin-bottom: 14.5%;
 position: relative;
 }
 
@@ -365,7 +367,7 @@ position: relative;
     padding-right: 10%;
     box-shadow: 0 .1rem 3rem  rgb(12, 0, 179);
     position: absolute;
-    bottom: 30%;
+    bottom: 1%;
     right:6%;
     left: 6%;
    
@@ -373,34 +375,33 @@ position: relative;
     
     .Informacion{
     font-family: "Rubik Distressed", system-ui;
-  font-weight: 400;
-  font-style: normal;
-    background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
+    font-weight: 400;
+    font-style: normal;
+     background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
     text-align: center;
     color: rgb(14, 124, 214);
     border-radius: 5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-right: 2%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
     box-shadow: 0 .1rem 0.7rem  rgb(5, 7, 8);
-    margin-bottom: 28.5%;
     position: absolute;
-    bottom: -8%;
+    bottom: -40%;
     }
 
  .hi{
-        font-family: "Bungee Spice", sans-serif;
-  background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
-   border-radius:2rem;
-   text-align:center; 
-   padding-left: 7%;
-   padding-right: 7%;
-     box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
-     position: absolute;
-     top: 4%;
-     left: 5%;
+       font-family: "Bungee Spice", sans-serif;
+    background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
+    border-radius:2rem;
+    text-align:center;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0 .1rem 3rem  rgb(12, 0, 179);
+    position: absolute;
+    bottom: 40%;
+    right:6%;
+    left: 6%;
 
     }
 
@@ -412,8 +413,8 @@ position: relative;
     text-align: center;
     color: rgb(14, 124, 214);
     border-radius: 5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     padding-right: 2%;
     padding-left: 15px;
     padding-right: 15px;
@@ -421,19 +422,22 @@ position: relative;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 21.6rem;
+    position: absolute;
+    bottom: -36%;
     }
 
  .ub{
-font-family: "Bungee Spice", sans-serif;
-background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
-border-radius:2rem;
-text-align:center;
-padding-left: 10%;
-padding-right: 10%;
-box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
-position: absolute;
-top: 4%;
-right: 5%;
+ font-family: "Bungee Spice", sans-serif;
+    background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
+    border-radius:2rem;
+    text-align:center;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0 .1rem 3rem  rgb(12, 0, 179);
+    position: absolute;
+    top: 8%;
+    right:6%;
+    left: 6%;
     
 }
 
@@ -445,13 +449,14 @@ right: 5%;
     text-align: center;
     color: rgb(14, 124, 214);
     border-radius: 5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     padding-left: 10%;
     padding-right: 10%;
     box-shadow: 0 .1rem 0.7rem  rgb(5, 7, 8);
     margin-bottom: 21.6rem;
-    
+    position: absolute;
+    top: 19%;
     }
 
  h1{
