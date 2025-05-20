@@ -369,7 +369,7 @@ position: relative;
     padding-right: 10%;
     box-shadow: 0 .1rem 3rem  rgb(12, 0, 179);
     position: absolute;
-    bottom: 1%;
+    bottom: 35%;
     right:6%;
     left: 6%;
    
@@ -389,7 +389,7 @@ position: relative;
     padding-right: 10%;
     box-shadow: 0 .1rem 0.7rem  rgb(5, 7, 8);
     position: absolute;
-    bottom: -40%;
+    bottom: -10%;
 
     }
 
@@ -402,6 +402,7 @@ position: relative;
     padding-right: 10%;
     box-shadow: 0 .1rem 3rem  rgb(12, 0, 179);
     position: absolute;
+    display: none;
     bottom: 40%;
     right:6%;
     left: 6%;
@@ -409,6 +410,7 @@ position: relative;
     }
 
     .historia{
+        display: none;
    font-family: "Rubik Distressed", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -426,7 +428,7 @@ position: relative;
     margin-right: 5%;
     margin-bottom: 21.6rem;
     position: absolute;
-    bottom: -36%;
+    bottom: -38%;
     }
 
  .ub{
@@ -438,7 +440,7 @@ position: relative;
     padding-right: 10%;
     box-shadow: 0 .1rem 3rem  rgb(12, 0, 179);
     position: absolute;
-    top: 8%;
+    top: 6%;
     right:6%;
     left: 6%;
     
@@ -463,7 +465,7 @@ position: relative;
     }
 
  h1{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
 
     .it{
