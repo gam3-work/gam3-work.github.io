@@ -1,0 +1,140 @@
+body{
+    background: linear-gradient(90deg, rgb(16, 64, 195),rgb(13, 20, 97))
+}
+
+.Comingsoon{
+   font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(180deg, rgb(10, 85, 177), rgb(15, 35, 90));
+    border-radius: 6rem;
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 10%;
+    font-size: 3.5rem;
+    color: aliceblue;
+    box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
+     text-decoration: none;
+}
+
+.h2{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 2rem;
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+    box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
+   
+}
+
+.Accede:hover {
+ transform: scale(1.01);
+}
+
+a{
+     text-decoration: none;
+}
+
+.game{
+    border-radius: 4rem;
+    position: absolute;
+    left: 2rem;
+    top: -0.1%;
+    margin-top: 0.5%;
+}
+
+.h2{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Comingsoon{
+    opacity: 0;
+    transform: translateX(50px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.game{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width:600px) {
+        
+
+    .game{
+    border-radius: 4rem;
+    position: absolute;
+    left: 0.7rem;
+    top: -0.1%;
+    margin-top: 3%;
+    width: 30px;
+    height: 30px;
+}
+
+
+   
+.h2{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(180deg, rgb(9, 75, 155), rgb(15, 35, 90));
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    border-radius: 2rem;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+    box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
+    
+}
+
+.Comingsoon{
+   font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(180deg, rgb(10, 85, 177), rgb(15, 35, 90));
+    border-radius: 4rem;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 40%;
+    padding-top:1px;
+    padding-bottom: 1px;
+    font-size: 1.5rem;
+    color: aliceblue;
+    box-shadow: 0 .1rem 0.5rem  rgb(5, 7, 8);
+}
+
+}

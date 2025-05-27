@@ -53,6 +53,14 @@ header{
     animation: fadeIn 1s forwards;
 }
 
+.game{
+    border-radius: 4rem;
+    position: absolute;
+    left: 2rem;
+    top: -0.1%;
+    margin-top: 0.5%;
+}
+
 @keyframes fadeIn {
     to {
         opacity: 5;
@@ -331,7 +339,7 @@ footer{
     background-color: black;
     padding: 5.8rem;
     color: rgb(139, 142, 144);
-    margin-bottom: 10%;
+    padding-bottom: 1rem ;
 }
 
         footer p{
